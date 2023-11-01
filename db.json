@@ -1,0 +1,79 @@
+{
+  "records": [
+    {
+      "name": "Dante Daniel",
+      "email": "dante@gmail.com",
+      "occupation": "Mechanic",
+      "age": 39,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Shalipopi Plutoboy",
+      "email": "plutocanapist@gmail.com",
+      "occupation": "Musician",
+      "age": 22
+    },
+    {
+      "name": "Grace Oluwo",
+      "email": "gracey@gmail.com",
+      "occupation": "Poultry Farmer",
+      "age": 42,
+      "id": 4
+    },
+    {
+      "name": "Johnbosco Chukwudi",
+      "email": "johnbosco@gmail.com",
+      "occupation": "Customer Service ",
+      "age": 27,
+      "id": 5
+    },
+    {
+      "name": "Blaczeez Tosin",
+      "email": "blackzeez@gmail.com",
+      "occupation": "Snr Web Dev",
+      "age": 28,
+      "id": 6
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "Max Millions",
+      "mobile": "07062345678",
+      "email": "maxie@gmail.com",
+      "password": "Wonderwoman",
+      "id": 2
+    },
+    {
+      "fullname": "Sewen Allee",
+      "mobile": "9067567893",
+      "email": "sewen@gmail.com",
+      "password": "Wonderwoman",
+      "id": 3
+    },
+    {
+      "fullname": "Abdulazeez",
+      "mobile": "3333333333333",
+      "email": "zeez@gmail.com",
+      "password": "Wonderwoman",
+      "id": 4
+    },
+    {
+      "fullname": "Zeez Boy",
+      "mobile": "44444444444",
+      "email": "zeezat@gmail.com",
+      "password": "powerrangerssamurai",
+      "id": 5
+    },
+    {
+      "fullname": "Mr Kalu Special",
+      "mobile": "1234567890",
+      "email": "tell@gmail.com",
+      "password": "wealth",
+      "id": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

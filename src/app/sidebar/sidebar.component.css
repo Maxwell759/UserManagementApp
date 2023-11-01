@@ -1,0 +1,103 @@
+.sidenav {
+  background: #263238; 
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 230px;
+  height: 100vh;
+}
+.sidenav p {
+  color: white;
+}
+i:hover{
+  color: #000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 0 10px;
+  width: 100%;
+}
+.logo-text {
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+.logo{
+  background: transparent;
+  color: #fff;
+  border: 0;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Agbalumo;
+}
+.btn-close {
+  margin-left: auto;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+}
+.fa-times {
+  color: #fff;
+  font-size: 24px;
+}
+.sidenav-collapsed {
+  width: 280px;
+}
+.sidenav-nav {
+  list-style: none;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100%-60px);
+  cursor: pointer;
+}
+.sidenav-nav-item {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.sidenav-nav-link { 
+  display: flex;
+  align-items: center;
+  height: 48px;
+  color: #f3f3f3;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all .3s ease;
+}
+.sidenav-nav-link:hover {
+  background-color: #fff;
+  color: #000;
+}
+.sidenav-link-icon {
+  font-size: 22px;
+  width: 32px;
+  min-width: 32px;
+  margin: 0px 8px;
+  text-align: center;
+}
+.sidenav-link-text {
+  margin-left: 24px;
+  color: #fff;
+}
+.active {
+  background: #fff;
+}
+.sidenav-link-icon,
+.sidenav-link-text:hover {
+  color: #000;
+}
+
+.text1 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}

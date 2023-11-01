@@ -1,0 +1,43 @@
+<!-- <div class="container-fluid mt-3">
+  <h2>{{ "Edit Record"  }}</h2>
+  <form [formGroup]="recordForm" (ngSubmit)="UpdateRecord()">
+    <div class="container d-flex justify-content-between mb-3">
+      <div class="col me-3">
+        <label for="name">Name</label>
+        <input type="text" id="first_name" formControlName="first_name"class="form-control" />
+      </div>
+      <div class="col me-3">
+        <label for="email">Email</label>
+        <input type="email" id="email" formControlName="email" class="form-control" />
+      </div>
+    </div>
+  
+    <div class="container d-flex justify-content-between mb-3">
+      <button type="submit" class="btn btn-success">
+        {{ isEditMode ? "Save Changes" : "Create Record" }}
+      </button>
+    </div>
+
+  </form>
+</div> -->
+
+<div class="container-fluid mt-3">
+  <h2>{{ isEditMode ? 'Edit Record' : 'Create Record' }}</h2>
+  <form [formGroup]="recordForm" (ngSubmit)="submitForm()">
+    <div class="container d-flex justify-content-between mb-3">
+      <div class="col me-3">
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" formControlName="first_name" class="form-control" />
+      </div>
+      <div class="col me-3">
+        <label for="email">Email</label>
+        <input type="email" id="email" formControlName="email" class="form-control" />
+      </div>
+    </div>
+    <div class="container d-flex justify-content-between mb-3">
+      <button type="submit" class="btn btn-success">
+        {{ isEditMode ? 'Save Changes' : 'Create Record' }}
+      </button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,28 @@
+<div class="sidenav">
+  <div class="logo-container">
+    <button class="logo">C</button>
+    <div class="logo-text">User Management</div>
+
+  </div>
+  <div class="text1">
+    <p>{{user.data?.first_name}} {{user.data?.last_name}}</p>
+  </div>
+  <div class="mt-3 mx-3">
+    <p>{{todayDate}}  </p>
+  </div>
+
+  <ul class="sidenav-nav">
+    <li class="sidenav-nav-item" *ngFor="let data of sidebarList">
+      <a class="sidenav-nav-link" [routerLink]="data.routeLink">
+        <i style="color: #FFF;" class="sidenav-link-icon" [class]="data.icon"></i>
+        <span class="sidenav-link-text">{{data.label}}</span>
+      </a>
+    </li>
+    <li class="sidenav-nav-item">
+      <a class="sidenav-nav-link" routerLink="/login" (click)="logout()">
+        <i class="sidenav-link-icon" class="fal fa-cog"></i>
+        <span class="sidenav-link-text">Sign-Out</span>
+      </a>
+    </li>
+  </ul>
+</div>
